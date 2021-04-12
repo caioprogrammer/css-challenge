@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+body {
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    padding-top: 13%;
+}
+ p {
+    font-size: 15px;
+    font-family: 'Lexend Deca';
+    color: white;
+    width: 250px;
+    height: 115px;
+    padding-left: 50px;
+    line-height: 24px;
+}
+h1 {
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+    color: white;
+    padding-left: 50px;
+}
+img {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.one {
+    font-size: 15px;
+    font-family: 'Lexend Deca';
+    color:hsl(31, 77%, 52%);
+}
+.one:hover {
+    color: white;
+}
+.two {
+    font-size: 15px;
+    font-family: 'Lexend Deca';
+    color:hsl(184, 100%, 22%);}
+.two:hover{
+    color: white;
+}
+.three {
+    font-size: 15px;
+    font-family: 'Lexend Deca';
+    color:hsl(179, 100%, 13%);
+}
+.three:hover{
+    color: white;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    outline: none;
+    border: 1px solid hsl(0, 0%, 95%);
+    width: 145px;
+    height: 50px;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-top: 90px;
+}
+button:hover {
+    background-color: transparent;
+    color: white;
+}
+.sedans{
+    background-color: hsl(31, 77%, 52%) ;
+
+    flex-direction: column;
+    height: 500px;
+    width: 310px;
+    border-radius: 10px 0 0 10px;
+    
+}
+
+
+.suvs{
+    background-color: hsl(184, 100%, 22%) ;
+    width: 310px;
+
+    flex-direction: column;
+    height: 500px;
+}
+
+
+.lux{
+    background-color: hsl(179, 100%, 13%) ;
+    width: 310px;
+
+    height: 500px;
+    flex-direction: column;
+    border-radius: 0px 10px 10px 0px;
+}
+
+
+@media (max-width:768px){
+    body {
+        width: 400px;
+        display: block;
+        justify-content: center;
+        padding-left: 35px;
+    }
+    button {
+        margin-top: 50px;
+    }
+    .sedans {
+        border-radius: 10px 10px 0px 0px;
+        height: 440px;
+    }
+    .suvs {
+        border-radius: 0px 0px 0px 0px;
+        height: 440px;
+    }
+    .lux {
+        border-radius: 0px 0px 10px 10px;
+        height: 440px;
+    }
+}
